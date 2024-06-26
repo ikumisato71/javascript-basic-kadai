@@ -29,3 +29,14 @@ const options = {
 
 const formattedDate = date.toLocaleDateString("ja-JP", options);
 console.log(formattedDate);
+/*
+const options = {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+  // weekday: 'short', → 曜日オプションコメントアウト
+}
+const now = new Date()
+const dateString = now.toLocaleDateString('ja-JP', options)
+console.log(dateString) // → 2022年12月12日
+*/
