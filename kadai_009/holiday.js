@@ -43,3 +43,15 @@ while(i < 16) {
     i++;
 }
 */
+const comp = ["正月", "海の日", "山の日"];
+console.log(comp);
+
+for (let i = 0; i < comp.length; i++) {
+  console.log(comp[i]);
+}
+// let i=0 宣言を2回はエラーになる
+i = 0;
+while (i < comp.length) {
+  console.log(comp[i]);
+  i++;
+}
