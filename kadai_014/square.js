@@ -3,8 +3,8 @@ const square = (n) => {
 };
 square(10);
 
-const calc = (num) => {
-  return num * num;
-};
+// const calc = (num) => {
+//   return num * num;
+// };
 
-console.log(calc(10));
+// console.log(calc(10));
